@@ -33,7 +33,7 @@ Follow these steps to run the project locally.
 ```bash
 git clone https://github.com/Mulearn-CETKR/SolarUse
 cd SolarUse
-
+```
 ---
 
 ### 2️⃣ Backend Setup
@@ -43,26 +43,27 @@ cd backend
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-
+```
 ---
 
 ### Create .env
 ```bash
 GEMINI_API_KEY=your_key
-
+```
 ---
 ### Migrate DB
 ```bash
 python manage.py migrate
-
+```
 ---
 
 ### Run Server
 ```bash
 python manage.py runserver
-
+```
 
 ## Project Structure
+```bash
 SolarUse/
 ├── backend/
 │   ├── manage.py
@@ -83,4 +84,6 @@ SolarUse/
 ├── .env
 ├── README.md
 └── requirements.txt
+
+```
 ---
